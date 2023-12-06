@@ -1,0 +1,13 @@
+# ape-config.yaml
+name: uviswap
+
+plugins:
+  - name: avalanche
+  - name: vyper
+
+geth:
+  avalanche:
+    mainnet:
+      uri: https://api.avax.network/ext/bc/C/rpc
+    fuji:
+      uri: https://avalanche-fuji.drpc.org/

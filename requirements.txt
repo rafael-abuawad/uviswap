@@ -1,0 +1,10 @@
+asttokens==2.4.1
+cbor2==5.5.1
+importlib-metadata==6.8.0
+packaging==23.2
+pycryptodome==3.19.0
+setuptools==68.2.2
+six==1.16.0
+vyper==0.3.10
+wheel==0.41.2
+zipp==3.17.0
