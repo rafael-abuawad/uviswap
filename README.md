@@ -4,12 +4,17 @@ Uviswap is a decentralized automated market maker (AMM) that allows users to swa
 
 ## Table of Contents
 
+- [Guide](#guide)
 - [Overview](#overview)
 - [Smart Contracts](#smart-contracts)
 - [Testing](#testing)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
 - [License](#license)
+
+## Guide
+
+This repository comes with a full guide on how to implement it from scratch, you can find it here. [Create your own Uniswap DeFi Application🦄! From scratch using Vyper & Python🐍 ](https://dev.to/rabuawad/create-your-own-uniswap-defi-application-from-scratch-using-vyper-python-3i9h)
 
 ## Overview
 
@@ -45,10 +50,10 @@ Make sure to configure the testing fixtures and accounts in [conftest.py](tests/
 
 To deploy the Uviswap application, follow these steps:
 
-1. Install the Avalanche plugin:
+1. Install the Base plugin:
 
    ```bash
-   $ ape plugins install avalanche
+   $ ape plugins install base
    ```
 
 2. Configure the RPC URL endpoints in `ape-config.yaml` for the desired network (mainnet or testnet).
@@ -66,11 +71,11 @@ Make sure to replace `<name_of_your_account>` in the instructions with the actua
 5. Run the deployment script:
 
    ```bash
-   $ ape run deploy --network avalanche:fuji  # For Avalanche Testnet
+   $ ape run deploy --network base:sepolia  # For Base Testnet
    ```
 
    ```bash
-   $ ape run deploy --network avalanche:mainnet  # For Avalanche Mainnet
+   $ ape run deploy --network base:mainnet  # For Base Mainnet
    ```
 
 ## Contributing
@@ -79,4 +84,4 @@ Contributions are welcome! If you have any improvements, bug fixes, or additiona
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE)
